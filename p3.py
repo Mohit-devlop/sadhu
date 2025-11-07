@@ -2,7 +2,7 @@ data=bytearray([10,20,30,40,50])
 
 print("original array:")
 for value in data:
-    print(value,end="")
+    print(value,end=" ")
 for i in range(len(data)):
     data[i]=data[i]+5
 
